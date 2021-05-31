@@ -21,6 +21,7 @@ body {
   background: #FFF;
   border-radius: 60px;
   margin: 1rem auto;
+  box-shadow: 0 0 1px ;
   overflow: hidden;
 }
 
@@ -49,7 +50,7 @@ body {
 }
 
 .card {
-  min-height: 150px;
+  min-height: 270px;
   width: 100%;
   max-width: 280px;
   background: #FFF;
@@ -59,11 +60,55 @@ body {
   text-align: left;
   border-radius: 4px;
   vertical-align: top;
+  overflow: hidden;
+}
+
+.card2 {
+  width: 90%;
+  min-height: 200px;
+  max-width: 500px;
+  background: #FFF;
+  box-shadow: 0 0 4px #D5D5D5;
+  margin: 1rem auto;
+  text-align: left;
+  border-radius: 4px;
+  vertical-align: top;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.profile{
+  width: 60px;
+  height: 60px;
+  background: #EEEEEE;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.name {
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 0.6rem;
+}
+
+.content {
+  background: #EEEEEE;
+  width: 97%;
+  border-radius: 4px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.content img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .picture {
-  height: 150px;
   width: 100%;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
 .title {
@@ -87,4 +132,10 @@ body {
   float: right;
   margin: 1rem;
   outline: none;
+  transition: 0.7s;
+}
+
+.btn:hover {
+  background: #5DB5ED;
+  transition: 0.7s;
 }
