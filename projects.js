@@ -9,5 +9,5 @@ projectAdd(
   "DDW | Atividade 01",
   "Atividade do curso de Informática da ETEC | Um cartão contendo dados.",
   "ddw-01.jpg",
-  "DDW/ATIVIDADE 01/"
+  "DDW/Atividade 01/"
 );
