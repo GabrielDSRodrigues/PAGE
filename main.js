@@ -8,7 +8,7 @@ function projectAdd(title, text, img, href) {
       <img src="pictures/${img}" class="picture">
       <p class="title">${title}</p>
       <p class="text">${text}</p>
-      <button onclick="go('projects/${href}')"class="btn">Ver</button>
+      <button onclick="go('${href}')"class="btn">Ver</button>
     </div>
   `);
 }
