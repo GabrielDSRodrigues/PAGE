@@ -4,3 +4,17 @@ projectAdd(
   "login-form.jpg",
   "https://gabrieldsrodrigues.github.io/Login-Form/"
 );
+
+projectAdd(
+  "News Page",
+  "Página de notícias",
+  "newsPage.jpg",
+  "https://gabrieldsrodrigues.github.io/News-Page/home.html"
+);
+
+projectAdd(
+  "Gerador de Cardápio",
+  "Gerador de Cardápio online feito com html2canvas",
+  "geradorDeCardapio.jpg",
+  "https://gabrieldsrodrigues.github.io/Gerador-de-Cardapio/"
+);
