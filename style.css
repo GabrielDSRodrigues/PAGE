@@ -199,6 +199,6 @@ body {
 
 .lBg {
   background: url(ProfileIMGS/landscape.jpg);
-  background-size: 100%;
+  background-size: cover 100%;
   background-repeat: no-repeat;
 }
