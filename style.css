@@ -49,7 +49,7 @@ body {
 }
 
 .container2 {
-  width:90%;
+  width: 90%;
   margin: auto;
   overflow: hidden;
 }
@@ -82,7 +82,7 @@ body {
   padding: 1rem;
 }
 
-.profile{
+.profile {
   width: 60px;
   height: 60px;
   background: #EEEEEE;
@@ -148,7 +148,7 @@ body {
 .lspace {
   width: 100%;
   max-width: 400px;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   padding: 1rem 0;
   height: 100%;
   color: #FFF;
@@ -181,7 +181,7 @@ body {
 }
 
 .note {
-  background: rgba(0,200,255,0.1);
+  background: rgba(0, 200, 255, 0.1);
   color: #Fff;
   padding: 0.5rem;
   margin: 0.3rem 0;
