@@ -28,17 +28,12 @@ function publish(name, profile, text, img, date) {
   `);
 }
 
-function click(e, f) {
-  e.addEventListener("click", () => { f(); });
-}
+function click(e, f) { e.addEventListener("click", () => { f(); }); }
 
 let projects = id("projects");
 let activities = id("activities");
+let progile = id("profile");
 
-click(projects, () => {
-  go("index.html");
-});
-
-click(activities, () => {
-  go("activities.html");
-});
+click(projects, () => { go("index.html"); });
+click(activities, () => { go("activities.html"); });
+click(profile, () => { go("profile.html"); });
