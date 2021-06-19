@@ -18,3 +18,10 @@ projectAdd(
   "geradorDeCardapio.jpg",
   "https://gabrieldsrodrigues.github.io/Gerador-de-Cardapio/"
 );
+
+projectAdd(
+  "CardápioOn",
+  "Um cardápio online interativo (em desenvolvimento)",
+  "CardapioOn.jpg",
+  "https://gabrieldsrodrigues.github.io/CardapioOn/"
+);
