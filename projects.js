@@ -22,6 +22,6 @@ projectAdd(
 projectAdd(
   "CardápioOn",
   "Um cardápio online interativo (em desenvolvimento)",
-  "CardapioOn.jpg",
+  "cardapioOn.jpg",
   "https://gabrieldsrodrigues.github.io/CardapioOn/"
 );
