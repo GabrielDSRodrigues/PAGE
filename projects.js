@@ -25,9 +25,9 @@ projectAdd(
   "cardapioOn.jpg",
   "https://gabrieldsrodrigues.github.io/CardapioOn/"
 );
-
+/*
 projectAdd(
   "Resolution",
   "Teste seu site em diferentes resoluções! (em desenvolvimento)",
   "resolution.jpg", "https://gabrieldsrodrigues.github.io/Resolution/"
-);
+);*/
