@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta name="Cache-Control" content="age=0,must-revalidate">
+  <meta http-equiv="cache-control" content="no-cache">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gabriel Rodrigues | Projetos</title>
@@ -10,6 +10,9 @@
 </head>
 
 <body>
+  <div id="loadPage">
+    <div id="cicleLoading"></div>
+  </div>
   <div class="bar">
     <button id="profile">Perfil</button>
     <button id="activities">Atividades</button>
@@ -18,6 +21,7 @@
   <div id="panel" class="container"></div>
   <script src="main.js"></script>
   <script src="projects.js"></script>
+  <script src="conf/projectsCardScale.js"></script>
 </body>
 
 </html>
