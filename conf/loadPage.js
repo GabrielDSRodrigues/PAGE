@@ -6,7 +6,7 @@ function loadPage() {
 
   function rotation() {
     if (chave == false) {
-      rt+=12;
+      rt += 12;
       id("circleLoading").style.transform = `rotate(${rt}deg)`;
       window.requestAnimationFrame(rotation);
     } else if (chave == true) {
@@ -14,8 +14,8 @@ function loadPage() {
     }
   }
   rotation();
-    setTimeout(() => {
-      chave = true;
-    }, 3000);
+  setTimeout(() => {
+    chave = true;
+  }, 4000);
 }
 loadPage();

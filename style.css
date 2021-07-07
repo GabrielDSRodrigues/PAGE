@@ -55,7 +55,9 @@ body {
   overflow: hidden;
   width: 100%;
   max-width: 280px;
-  background: #FFF;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
   margin: 1rem;
   display: inline-block;
   text-align: left;
@@ -112,20 +114,20 @@ body {
 }
 
 .title {
-  color: #444444;
+  color: #628EBC;
   padding: 0.1rem 0.3rem;
   font-size: 20px;
 }
 
 .text {
-  color: #A4A4A4;
+  color: #FFF;
   padding: 0.1rem 0.3rem;
 }
 
 .btn {
   border: none;
   border-radius: 4px;
-  background: #1B8EE3;
+  background: #0A2840;
   color: #FFF;
   padding: 0.3rem 0;
   min-width: 80px;
@@ -143,7 +145,7 @@ body {
 .lspace {
   width: 100%;
   max-width: 400px;
-  -webkit-backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(60px);
   backdrop-filter: blur(60px);
   background: rgba(0, 0, 0, 0.1);
   padding: 1rem 0;
@@ -193,7 +195,7 @@ body {
 .lBar {
   margin: 0;
   background: rgba(0, 0, 0, 0.5);
-  -webkit-backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(40px);
   backdrop-filter: blur(40px);
 }
 
@@ -272,7 +274,9 @@ body {
 }
 
 #loadPage {
-  background: #FFF;
+  background: rgba(0, 2, 10, 0.9);
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(60px);
   width: 100%;
   height: 100%;
   position: fixed;
