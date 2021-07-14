@@ -14,7 +14,7 @@ projectAdd(
 
 projectAdd(
   "Gerador de Cardápio",
-  "Gerador de Cardápio online feito com html2canvas",
+  "Gerador de Cardápio online feito com html2canvas (em desenvolvimento)",
   "geradorDeCardapio.jpg",
   "https://gabrieldsrodrigues.github.io/Gerador-de-Cardapio/"
 );
@@ -30,4 +30,10 @@ projectAdd(
   "Resolution",
   "Teste seu site em diferentes resoluções! (em desenvolvimento)",
   "resolution.jpg", "https://gabrieldsrodrigues.github.io/Resolution/"
+);
+
+projectAdd(
+  "Amvs",
+  "Veja vários Amvs(em desenvolvimento)",
+  "amvs.jpg", "https://gabrieldsrodrigues.github.io/Amvs/"
 );

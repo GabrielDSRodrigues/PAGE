@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  background: #F4F4F4;
+  background: #0D1019;
   max-height: 100%;
 }
 
@@ -56,13 +56,12 @@ body {
   width: 100%;
   max-width: 280px;
   background: rgba(0, 0, 0, 0.5);
-  -webkit-backdrop-filter: blur(40px);
-  backdrop-filter: blur(40px);
   margin: 1rem;
   display: inline-block;
   text-align: left;
   border-radius: 4px;
   vertical-align: top;
+  box-shadow:  0 0 1px black;
 }
 
 .card2 {
@@ -145,8 +144,6 @@ body {
 .lspace {
   width: 100%;
   max-width: 400px;
-  -webkit-backdrop-filter: blur(60px);
-  backdrop-filter: blur(60px);
   background: rgba(0, 0, 0, 0.1);
   padding: 1rem 0;
   height: calc(100% - 30px - 2rem);
@@ -195,8 +192,6 @@ body {
 .lBar {
   margin: 0;
   background: rgba(0, 0, 0, 0.5);
-  -webkit-backdrop-filter: blur(40px);
-  backdrop-filter: blur(40px);
 }
 
 .lBar button {
@@ -207,58 +202,6 @@ body {
   background: url(ProfileIMGS/landscape.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-}
-
-#ppanel {
-  overflow: hidden;
-  background: #08AAED;
-}
-
-#ppanel img {
-  width: 200px;
-  height: 200px;
-  background: #70D5FF;
-  margin: 1rem;
-}
-
-#ppanel h1 {
-  color: #FFF;
-  font-size: 50px;
-  border-bottom: 2px solid #FFF;
-  max-width: 200px;
-  margin: 1rem;
-}
-
-#ppanel p {
-  color: #FFF;
-  margin: 0 1rem;
-  width: 90%;
-  text-align: justify;
-}
-
-#ppanel div {
-  width: calc(100% - (200px + 4rem));
-}
-
-#corredor {
-  max-width: 100%;
-  border-bottom: 1px solid #E3E3E3;
-  overflow: scroll;
-  max-height: 200px;
-  padding: 1rem;
-}
-
-#corredor div {
-  width: 250px;
-  border-radius: 4px;
-  overflow: hidden;
-  background: #E3E3E3;
-  float: left;
-}
-
-#corredor div img {
-  width: 100%;
-  display: block;
 }
 
 .fleft {
@@ -274,9 +217,7 @@ body {
 }
 
 #loadPage {
-  background: rgba(0, 2, 10, 0.9);
-  -webkit-backdrop-filter: blur(40px);
-  backdrop-filter: blur(60px);
+  background: rgba(0, 0, 0, 1);
   width: 100%;
   height: 100%;
   position: fixed;
@@ -292,10 +233,11 @@ body {
 }
 
 #circleLoading {
-  border: 3px solid #0068FF;
-  border-top: 3px solid #30ACFF;
-  border-left: 3px solid #30ACFF;
+  border: 3px solid #2778C1;
+  border-top: 3px solid #0086FF;
+  border-left: 3px solid #0086FF;
   border-radius: 100%;
+  box-shadow: 0 0 10px #063056;
   height: 40px;
   width: 40px;
 }
