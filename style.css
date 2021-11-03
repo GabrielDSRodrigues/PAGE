@@ -117,7 +117,7 @@ body {
 }
 
 .men-title {
-  font-size: 80px;
+  font-size: 50px;
   margin: 1rem 0 0 3rem;
   color: #176475;
 }
@@ -131,8 +131,9 @@ body {
 }
 
 .inline-posts {
-  height: 350px;
-  padding: 1rem;
+  height: 352px;
+  overflow: hidden;
+  margin: 1rem 0;
   overflow-x: scroll;
   white-space: nowrap;
 }
