@@ -127,6 +127,7 @@ body {
   color: #fff;
   margin: 1rem 3rem;
   width: 50%;
+  font-size: 14px;
 }
 
 .inline-posts {
@@ -150,6 +151,7 @@ body {
   white-space: normal;
   margin: 0 1rem;
   transition: 0.4s;
+  overflow: hidden;
 }
 
 .inline-post:hover {
@@ -165,5 +167,11 @@ body {
   color: #FFF;
   width: calc(100% - 2rem);
   margin: 1rem;
+  font-size: 12px;
+  height: 140px;
   overflow-y: scroll;
+}
+
+.inline-post-content-text::-webkit-scrollbar {
+  display: none;
 }
