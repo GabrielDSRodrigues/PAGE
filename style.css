@@ -75,13 +75,14 @@ body {
 }
 
 .desc-name {
-  font-size: 50px;
+  font-size: 40px;
   color: #FFF;
   padding: 2px;
 }
 
 .desc-name-subtitle {
   color: #9AB1E9;
+  text-shadow: 0 0 10px #0135FF;
   font-size: 30px;
 }
 
@@ -112,7 +113,7 @@ body {
 
 .men {
   height: 300px;
-  background: #040E10;
+  background: #0D1015;
   overflow: hidden;
 }
 
