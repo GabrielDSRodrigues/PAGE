@@ -21,6 +21,7 @@ label {
   /*align-items: center;
   justify-content: center;*/
   width: 400px;
+  overflow: hidden;
   height: max-content;
 }
 
