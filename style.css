@@ -9,6 +9,10 @@ body {
   height: 100%;
 }
 
+a {
+  color: #6FD2C8;
+}
+
 label {
   color: #FFF;
   display: block;
@@ -26,7 +30,8 @@ label {
 }
 
 .flex-side .item {
-  float: left;
+  /*float: left;*/
+  display: inline-block;
 }
 
 .item {
